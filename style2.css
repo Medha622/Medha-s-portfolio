@@ -1,0 +1,44 @@
+/* General Styling */
+body {
+    color: #333333;  /* Darker text */
+    background-color: #eaeaea;  /* Slightly darker background */
+}
+
+/* Hero Section */
+.hero {
+    background: linear-gradient(135deg, #c1c7cb, #a8b4c3);
+    color: #333333;
+    border-bottom: 3px solid #5a8ca3;  /* Darker blue accent */
+}
+
+/* Hero Text */
+.hero h1 {
+    color: #004b63;  /* Dark teal */
+}
+
+.hero p {
+    color: #1a1d2e;  /* Dark grey */
+}
+
+/* Main Nav */
+.main-nav a {
+    color: #5a8ca3;  /* Dark blue */
+}
+
+.main-nav a:hover {
+    color: #004b63;
+}
+
+/* Skills, Projects, and Hobbies Text */
+.skill h3,
+.project h3,
+.hobby h3 {
+    color: #004b63;
+}
+
+/* Skill, Project, and Hobby Cards */
+.skill, .project, .hobby {
+    /* Adjust square alignment if needed */
+    margin-top: 20px; /* Add extra spacing */
+    display: inline-block; /* Better spacing control */
+}
